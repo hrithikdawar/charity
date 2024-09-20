@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-color: rgb(189, 180, 180);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main{
+height: 90%;
+width: 90vw;
+background-image: url(https://cdn.pixabay.com/photo/2017/10/12/10/41/child-2844209_960_720.jpg);
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+font-family: helvetica;
+border-radius: 25px;
+display: flex;
+justify-content: space-between;
+flex-direction: column;
+align-items: center;
+ 
+}
+.main>nav{
+    background-color: white;
+    width: 100%;
+    height: 15vh;
+    border-radius: 25px 25px 0 0 ;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main>nav>ul{
+    display: flex;
+    list-style: none;
+    gap: 3vw;
+    justify-content: center;
+    align-items: center;
+
+ 
+}
+.main>nav>ul>li>button{
+    padding: 1vh 4vw;
+    border-radius: 25px ;
+    background-color: rgb(255, 208, 0);
+    color: white;
+    transition: .8s;
+    border: transparent;
+}
+.main>nav>ul>li>button:hover{
+    color:  rgb(255, 208, 0);
+    background-color: white;
+    border: 2px solid rgb(199, 198, 198);
+}
+.footer{
+    width: 80%;
+
+    height: 20vh;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2vw;
+    border-radius: 25px ;
+    margin-bottom: -3vh;
+    background-color: rgb(255, 208, 0);
+}
+span{
+    color: rgb(255, 208, 0);
+}
+h1{
+    color: white;
+    font-size: 9vh;
+    font-weight: 900;
+    -webkit-text-stroke-width: .04vw;
+    -webkit-text-stroke-color:black;
+}
+.footer>input{
+    width: 60%;
+    height: 10vh;
+    border: none;
+    border-bottom: 2px solid grey;
+    background-color: transparent;
+}
+.footer>button{
+    padding: 2vh 4vw;
+    border-radius: 25px;
+    background-color: rgb(66, 65, 65);
+    color: white;
+    transition: all ease .8s;
+    border: transparent;
+
+}
+button:hover{
+    background-color:white;
+    color: rgb(51, 49, 49);
+}
